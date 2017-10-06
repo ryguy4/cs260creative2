@@ -1,43 +1,24 @@
+<!DOCTYPE html>
 <html>
-    <head>
-            <link rel="stylesheet" href="stylesheet.css">
-            <script src="script.js"></script>
-    </head>
-    <body>
-        <table style="width:100%;height:100%">
-                <tr>
-                  <th colspan = 4,height:30px>Jeopardy Game</th>
-                </tr>
-                <tr>
-                  <th>Jeopardy Category</th>
-                  <th>Jeopardy Category</th> 
-                  <th>Jeopardy Category</th>
-                  <th>Jeopardy Category</th>
-                </tr>
-                <tr>
-                  <td>Jeopardy Question</td>
-                  <td>Jeopardy Question</td> 
-                  <td>Jeopardy Question</td>
-                  <td>Jeopardy Question</td>
-                </tr>
-                <tr>
-                  <td>Jeopardy Question</td>
-                  <td>Jeopardy Question</td> 
-                  <td>Jeopardy Question</td>
-                  <td>Jeopardy Question</td>
-                </tr>
-                <tr>
-                  <td>Jeopardy Question</td>
-                  <td>Jeopardy Question</td> 
-                  <td>Jeopardy Question</td>
-                  <td>Jeopardy Question</td>
-                </tr>
-                <tr>
-                  <td>Jeopardy Question</td>
-                  <td>Jeopardy Question</td> 
-                  <td>Jeopardy Question</td>
-                  <td>Jeopardy Question</td>
-                </tr>
-              </table>
-    </body>
+<head>
+<title>Chuck Norris Jokes</title>
+<script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous">
+</script>
+	<link rel="stylesheet" href="stylesheet.css">
+	<script src="script.js"></script>
+
+</head>
+<body>
+<div id="jokePlace">
+
+  <img src="norris1.jpg" alt="" /><h2><span id="jokeGoesHere"></span></h2>
+
+</div>
+<div id="buttonPlace">
+<button class="jokeButton" onclick="getJoke()"><span>Press for a joke!</span></button>
+</div>
+</body>
 </html>
